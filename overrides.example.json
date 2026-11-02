@@ -1,0 +1,11 @@
+{
+  "overrides": [
+    {
+      "word": "中身",
+      "reading": "なかみ",
+      "definition": "中に入っているもの。内容。",
+      "action": "accept",
+      "note": "Example only: verify before using in a published deck"
+    }
+  ]
+}

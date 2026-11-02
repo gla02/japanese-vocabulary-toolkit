@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Large/user-supplied data
+*.dict
+*.dict.dz
+*.idx
+*.ifo
+*.syn
+JMdict*.gz
+openjlpt/
+frequency/
+
+# Generated outputs
+output/
+*.apkg
+
+# Local verification runs
+test-output/
+test-output-*/

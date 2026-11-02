@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "japanese-vocabulary-toolkit"
+version = "0.1.0"
+description = "Japanese vocabulary resolution, review reports and configurable study-card generation"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [{ name = "Gonçalo Alves" }]
+dependencies = ["genanki>=0.13.1,<0.14", "lxml>=5,<7"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Education",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[project.scripts]
+jvt = "japanese_vocabulary_toolkit.cli:main"
+vcg = "japanese_vocabulary_toolkit.cli:main"
+kotoba-anki = "japanese_vocabulary_toolkit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

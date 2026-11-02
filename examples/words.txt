@@ -1,0 +1,4 @@
+# Bare expression
+収集
+# Optional tab-separated reading and supplied meaning
+延ばす	のばす	extend; postpone

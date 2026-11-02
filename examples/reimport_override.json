@@ -1,0 +1,11 @@
+{
+  "overrides": [
+    {
+      "word": "収集",
+      "reading": "しゅうしゅう",
+      "definition": "【再インポート確認用】ものを集めること。",
+      "action": "accept",
+      "note": "Temporary test override; do not use in a study deck."
+    }
+  ]
+}
